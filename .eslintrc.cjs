@@ -14,5 +14,10 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'function-paren-newline': 'error',
+    "indent": ["error", 4],
+    "jsx-quotes": ["error", "prefer-double"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
   },
 }

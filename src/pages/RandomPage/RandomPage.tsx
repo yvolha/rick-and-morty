@@ -1,7 +1,7 @@
 export default function RandomPage() {
-  return (
-    <div>
-      Random!
-    </div>
-  )
+    return (
+        <div>
+            Random!
+        </div>
+    );
 }
