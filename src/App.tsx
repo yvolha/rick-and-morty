@@ -12,7 +12,6 @@ export function Root() {
                 <Outlet />
             </main>
         </>
-        
     );
 }
 
