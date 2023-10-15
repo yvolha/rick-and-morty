@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+}
+
+.nav_item {
+    padding: 0 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav_item.active {
+    background-color: #0000001f;
+}
