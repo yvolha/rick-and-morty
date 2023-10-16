@@ -8,7 +8,7 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', "@typescript-eslint", "prettier"],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
@@ -20,5 +20,12 @@ module.exports = {
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
     "no-unused-expressions": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-var-reqiures": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
   },
 }
