@@ -15,7 +15,7 @@
     min-width: 200px;
     max-width: 400px;
     height: 40px;
-    background: #00f260;
+    background: #92f200;
     background: linear-gradient(to right, var(--gradientColorOne), var(--gradientColorTwo));
     border-radius: 10px;
     border: none;
@@ -25,6 +25,6 @@
 
 .app_button:hover {
     --gradientColorOne: #fffb00;
-    --gradientColorTwo: #00f260;
+    --gradientColorTwo: #92f200;
     transition: --gradientColorTwo 0.5s, --gradientColorOne 0.5s;
 }

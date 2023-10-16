@@ -1,13 +1,21 @@
 .nav {
     display: flex;
+    height: 100%;
 }
 
 .nav_item {
     padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
     color: #000;
     text-decoration: none;
+    transition: background-color 0.5s ease;
 }
 
-.nav_item.active {
-    background-color: #0000001f;
+.nav_item.active,
+.nav_item:hover {
+    background-color: #00f26015;
+    border-bottom: 5px solid var(--basegreen);
+    transition: background-color 0.5s ease;
 }
