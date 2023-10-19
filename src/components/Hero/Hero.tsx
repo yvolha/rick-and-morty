@@ -7,11 +7,11 @@ export default function Hero(){
         const randomBackgroundNum = Math.floor(Math.random() * (maxBackgroundNum - minBackgroundNum) + minBackgroundNum);
         console.log(randomBackgroundNum);
         return `center / cover no-repeat url("./bg/bg-${randomBackgroundNum}.webp")`;
-    }
+    };
 
     return (
         <div className={styles.hero} style={{background: pickBackgroundImage()}}>
             <div className={styles.hero_blur}></div>
         </div>
-    )
+    );
 }
